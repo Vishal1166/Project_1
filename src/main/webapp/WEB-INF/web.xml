@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>EmployeeController</display-name>
+    <servlet-name>EmployeeController</servlet-name>
+    <servlet-class>controller.EmployeeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmployeeController</servlet-name>
+    <url-pattern>/EmployeeController</url-pattern>
+  </servlet-mapping>
+  <display-name>Employee Management</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>EmpdetailsController</display-name>
+    <servlet-name>EmpdetailsController</servlet-name>
+    <servlet-class>controller.EmpdetailsController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmpdetailsController</servlet-name>
+    <url-pattern>/EmpdetailsController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleterecordController</display-name>
+    <servlet-name>DeleterecordController</servlet-name>
+    <servlet-class>controller.DeleterecordController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleterecordController</servlet-name>
+    <url-pattern>/DeleterecordController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>validationController</display-name>
+    <servlet-name>validationController</servlet-name>
+    <servlet-class>controller.validationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>validationController</servlet-name>
+    <url-pattern>/validationController</url-pattern>
+  </servlet-mapping>
+</web-app>
